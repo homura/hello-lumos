@@ -19,7 +19,11 @@ This repo is used to show how to use
 ## Setup
 
 ```sh
+# build this project
 git clone --recurse-submodules https://github.com/homura/hello-lumos.git
+yarn
+
+# build lumos
 cd lumos
 yarn
 yarn build
@@ -36,11 +40,9 @@ npm run preview:tutorial
 
 ### Code
 
-```sh
-cp -r tutorial lumos/tutorial
-# open this repo in VSCode
-code .
-```
+1. Open this project in VSCode
+2. go to [/tutorial/01-initialize.ts](tutorial/01-initialize.ts)
+3. `start debugging`(or press `f5`)
 
 ## DAO(via Devnet)
 
