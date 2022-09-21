@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "ts-node",
+        "skipFiles": ["<node_internals>/**", "node_modules/**"],
+        "cwd": "${workspaceFolder}/lumos",
+        "program": "${file}",
+        "runtimeExecutable": "node",
+        "runtimeArgs": ["--nolazy", "-r", "ts-node/register/transpile-only"],
+        "args": ["${file}"],
+        "internalConsoleOptions": "openOnSessionStart"
+      }
+    ]
+  }

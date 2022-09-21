@@ -1,0 +1,17 @@
+{
+  "name": "hello-lumos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "preview:tutorial": "marp -c marp.config.js --preview ./tutorial/slide.md"
+  },
+  "devDependencies": {
+    "markdown-it-mermaid": "^0.2.5",
+    "zlib": "^1.0.5"
+  },
+  "dependencies": {
+    "@marp-team/marp-cli": "^2.2.0"
+  }
+}
