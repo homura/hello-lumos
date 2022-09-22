@@ -5,7 +5,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "preview:tutorial": "marp -c marp.config.js --preview ./tutorial/slide.md"
+    "preview:tutorial": "marp -c marp.config.js --preview ./tutorial/slide.md",
+    "preview:dao": "marp -c marp.config.js --preview ./dao-tutorial/slide.md"
   },
   "devDependencies": {
     "markdown-it-mermaid": "^0.2.5",
